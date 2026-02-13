@@ -1,3 +1,4 @@
+//función que devuelve un diccionario con el nombre, pelicula y ruta de las imagenes guardadas.
 function conseguirImagenes() {
     return [
         { nombre: "Ashitaka", pelicula: "La princesa Mononoke", img: "imagenes/Ashitaka.png" },
@@ -19,5 +20,4 @@ function conseguirImagenes() {
     ];
 }
 
-// Ruta exacta según tu captura
 const IMAGEN_MIYAZAKI = "imagenes/miyazaki.jpeg";
