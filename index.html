@@ -1,8 +1,36 @@
 <html>
     <head>
-        <title>Ampliación del reto - Nombre Apellido1 Apellido2</title>
+        <title>Ampliación del reto - Sendoa Perez Otaola</title>
         <link rel="stylesheet" href="estilos/estilos.css">
     </head>
     <body>
+
+    <h1>Ampliación del reto - Quién es quién?</h1>
+    <h2>Personaje a adivinar:</h2>
+
+    <div id="personaje-adivinar"></div>
+    <main id="cuadricula"></main>
+
+    <div id="botonReset">
+        <button onclick="resetearJuego()">
+            Resetear juego
+        </button>
+    </div>
+
+
+
+
+    
+    <script src="js/apiGithub.js"></script>
+    <script src="js/conseguirImagenes.js"></script>
+    <script src="js/generarAdivinar.js"></script>
+    <script src="js/generarImagenes.js"></script>
+    <script src="js/resetearJuego.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        generarImagenes();
+        generarAdivinar();
+    });
+</script>
     </body>
 </html>

@@ -1,3 +1,12 @@
 img {
     height: 10em;
 }
+#cuadricula {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+#botonReset{
+    text-align: center;
+    margin-top: 1em;
+}
